@@ -54,7 +54,7 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: #c9d1d9;
 }
 
 article,
@@ -78,9 +78,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #343a40;
   text-align: left;
-  background-color: #fff;
+  background-color: #161b22;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -178,7 +178,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #58a6ff;
   text-decoration: none;
   background-color: transparent;
 }
@@ -384,7 +384,7 @@ h2 {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #007bff;
+  color: #58a6ff;
 }
 
 h1,
@@ -404,7 +404,7 @@ h6,
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #c9d1d9;
 }
 
 h1,
@@ -3136,15 +3136,15 @@ fieldset:disabled a.btn {
 }
 .btn-outline-dark.disabled,
 .btn-outline-dark:disabled {
-  color: #007bff;
+  color: #58a6ff;
   background-color: transparent;
 }
 .btn-outline-dark:not(:disabled):not(.disabled):active,
 .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show > .btn-outline-dark.dropdown-toggle {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #58a6ff;
+  border-color: #58a6ff;
 }
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus,
 .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
@@ -3154,7 +3154,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #58a6ff;
   text-decoration: none;
 }
 .btn-link:hover {
@@ -3458,7 +3458,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
   font-size: 0.875rem;
-  color: #6c757d;
+  color: #343a40;
   white-space: nowrap;
 }
 
@@ -3681,7 +3681,7 @@ input[type="button"].btn-block {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #343a40;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -3916,7 +3916,7 @@ input[type="button"].btn-block {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #343a40;
   vertical-align: middle;
   background: #fff
     url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
@@ -4011,7 +4011,7 @@ input[type="button"].btn-block {
   padding: 0.375rem 0.75rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #343a40;
   background-color: #fff;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -6482,7 +6482,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #343a40 !important;
+  background-color: #161b22 !important;
 }
 
 a.bg-primary:hover,
@@ -10194,7 +10194,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #007bff !important;
+  color: #58a6ff !important;
 }
 
 a.text-primary:hover,
